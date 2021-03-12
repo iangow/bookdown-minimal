@@ -6,8 +6,8 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 output:
+  bookdown::pdf_book: default
   bookdown::gitbook: default
-  #bookdown::pdf_book: default
 ---
 
 # Hello World
@@ -15,3 +15,7 @@ output:
 This is the on-line version of "A Book".
 
 This is another sentence about a different book, namely "A Book."
+
+\newpage
+
+This should be page two! 
